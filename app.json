@@ -9,8 +9,8 @@
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#f2a900"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,13 +22,16 @@
       "supportsTablet": true
     },
     "android": {
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.omedinapr.Satinamos"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "jsEngine": "hermes"
   }
 }
